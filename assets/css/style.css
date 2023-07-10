@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  h1{
+    font-size: 35px;
+  }
+  @media only screen and (max-width:767px){
+    h1{
+        font-size: 25px;
+      }
+  }
+  p{
+    font-size: 16px;
+  }
+  
+  /* Header */
+  .header{
+    background-color: #420759;
+  }
+  .nav-link{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .2px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+  }
+
+  /* Hero section */
+  .hero-section{
+    background: #59ccfe;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .hero-box-1 h1{
+    color: #fff;
+  }
+  .first-box-line{
+    color: #ff20c3;
+    width: 90%;
+    height: 5px !important;
+    opacity: 1;
+  }
+  .frame1{
+    position: relative;
+    z-index: 20;
+  }
+  .frame1::before{
+    content: '';
+    background-color: beige;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    z-index: -1;
+  }
+
+  /* Table Area */
+
+.table-area{
+    background: #420759;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 20;
+}
+.table-tab{
+    background: #fff;
+    padding: 15px;
+}
+.second-table td{
+    height: 82px;
+    vertical-align: middle;
+}
+.third-table-row{
+    position: relative;
+}
+.third-table{
+    position: absolute;
+    top: -60px;
+    width: 95%;
+}
+.third-table1{
+    position: absolute;
+    top: 250px;
+    width: 95%;
+}
+@media only screen and (max-width:991px) {
+    .third-table{
+        top: 0;
+    } 
+    .third-table{
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    .third-table1{
+        position: relative;
+        
+    }
+}
+.table-tab3{
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+}
+.third-table-info{
+    padding: 30px 0 10px;
+    border-bottom: 1px solid black;
+}
+.info-p{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 0;
+    height: 25px;
+}
+.transfer-box{
+    background: gainsboro;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.nav-pills .nav-link{
+    padding: 8px 83px;
+    background: #ececec;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #420759;
+}
+
+.top-score{
+    background: url(../icons/Mask\ group.png);
+}
+
+/* sponsors */
+
+.sponsors{
+    background: #00000140;
+    padding: 30px 0 25px;
+}
+
+/* club-area */
+
+.club-area{
+    padding: 30px 0 30px;
+}
+.club-img{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.club-img img{
+    display: block;
+    margin: auto;
+}
+
+/* news-interest */
+
+.news-interest{
+    padding: 10px 0 30px;
+}
+.news-para{
+    font-size: 11px;
+}
