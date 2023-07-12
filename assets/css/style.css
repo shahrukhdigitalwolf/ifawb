@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,12 +10,16 @@
     font-family: 'Poppins', sans-serif;
   }
   h1{
-    font-size: 35px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 28px;
   }
   @media only screen and (max-width:767px){
     h1{
         font-size: 25px;
       }
+  }
+  h3{
+    font-family: 'Archivo', sans-serif;
   }
   p{
     font-size: 16px;
@@ -38,7 +45,7 @@
       color: #fff;
   }
   .dropdown-menu{
-    background-color: #420759e0;
+    background-color: #2e3550ed;
     color: #fefeff;
     border-radius: 0;
   }
@@ -51,10 +58,15 @@
     margin-top: 0; /* remove the gap so it doesn't close */
   }
 }
+@media only screen and (max-width:991px){
+  .navbar-nav{
+    padding-top: 55px;
+  }
+}
   
   /* Header */
   .header{
-    background-color: #420759;
+    background-color: #2e3550;
   }
   .logo{
     position: absolute;
@@ -66,7 +78,7 @@
     letter-spacing: .2px;
   }
   .navbar-light .navbar-nav .nav-link {
-    color: rgb(255 255 255);
+    color: rgb(255, 255, 255);
   }
   .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: rgb(255 209 0 / 90%);
@@ -76,14 +88,62 @@
   color: rgb(255 209 0 / 90%);
 }
 
+/* Footer */
+
+.footer{
+  background-color: #151d3b;
+  padding: 50px 0 0px;
+}
+.footer h1,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer h6,
+.footer a,
+.footer p{
+  color: #ffffff;
+}
+.copyrights{
+  background-color: #2e3550;
+  padding: 20px 0 8px;
+  margin-top: 30px;
+}
+
   /* Hero section */
   .hero-section{
-    background: #59ccfe;
+    background: url(../img/bg/slider-shades.png);
+    background-size: cover;
+    background-position: center center;
+    background-color: #151d3b;
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
-  .hero-box-1 h1{
-    color: #fff;
+  .banner-left{
+    text-align: center;
+  }
+  .clf_banner_p{
+    color: #ffffff;
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+  .clf_banner_h1{
+    color: #e09551;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 125px;
+    margin-bottom: 0;
+  }
+  .imgt3{
+    width: 270px;
+  }
+  @media only screen and (max-width:991px){
+    .clf_banner_h1{
+      font-size: 55px;
+    }
+    .imgt3{
+      width: 115px;
+  
+    }
   }
   .first-box-line{
     color: #ff20c3;
@@ -91,35 +151,19 @@
     height: 5px !important;
     opacity: 1;
   }
-  .frame1{
-    position: relative;
-    z-index: 20;
-  }
-  .frame1::before{
-    content: '';
-    background-color: beige;
-    width: 90%;
-    height: 100%;
-    position: absolute;
-    top: 10px;
-    bottom: 0;
-    left: 10px;
-    right: 0;
-    z-index: -1;
-  }
 
   /* Table Area */
 
 .table-area{
-    background: #420759;
+    background-color: #f1f1f1;
     padding-top: 30px;
-    padding-bottom: 50px;
     position: relative;
     z-index: 20;
 }
 .table-tab{
     background: #fff;
     padding: 15px;
+    box-shadow: 0px 10px 20px #acacac;
 }
 .second-table td{
     height: 82px;
@@ -132,6 +176,7 @@
     position: absolute;
     top: -60px;
     width: 95%;
+    right: 0;
 }
 .third-table1{
     position: absolute;
@@ -170,16 +215,18 @@
 }
 .transfer-box{
     background: gainsboro;
-    padding: 15px;
+    padding: 8px;
     margin-bottom: 10px;
 }
 .nav-pills .nav-link{
-    padding: 8px 83px;
-    background: #ececec;
+  max-width: 100%;
+  width: 315px;
+  background: #e8e8e8;
+  margin: 10px;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #420759;
+    background-color: #d98132;
 }
 
 .top-score{
@@ -192,7 +239,7 @@
 /* sponsors */
 
 .sponsors{
-    background: #00000140;
+    background: #e4e4e440;
     padding: 30px 0 25px;
 }
 
@@ -200,6 +247,7 @@
 
 .club-area{
     padding: 30px 0 30px;
+    background: #1e2643;
 }
 .club-img{
     background-color: #D9AFD9;
@@ -212,6 +260,32 @@
     display: block;
     margin: auto;
 }
+.club_bg{
+  position: relative;
+  z-index: 20;
+  border-radius: 5px;
+}
+.club_bg::before{
+  content: "";
+  background: url(../img/bg/foot-2.png);
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .6;
+}
+.club_bg::after{
+  content: "";
+  background-color: #3737c8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+}
 
 /* news-interest */
 
@@ -221,8 +295,6 @@
 .news-para{
     font-size: 11px;
 }
-
-
 
 /*---------------------------------
  ##table.html 
@@ -279,4 +351,55 @@
 .club_logo{
   max-width: 100%;
   width: 60px;
+}
+
+
+.water-mark{
+  position: relative;
+}
+.water-mark::before{
+  content: "";
+  background: url(../img/bg/41.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -28px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: .2;
+  overflow: hidden;
+}
+
+.nagendra-prasad{
+  position:static;
+}
+.nagendra-prasad::before{
+  content: "";
+  background: url(../img/bg/foot-2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 220px;
+  left:0px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: .6;
+  overflow: hidden;
+}
+@media only screen and (max-width:991px){
+  .nagendra-prasad{
+    position:relative;
+  }
+  .nagendra-prasad::before{
+    top: 0;
+  }
 }
