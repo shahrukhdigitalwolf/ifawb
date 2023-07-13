@@ -63,6 +63,23 @@
     padding-top: 55px;
   }
 }
+
+.heading_text{
+  position: relative;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  z-index: 20;
+}
+.heading_text::before{
+  content: '';
+  background: #d98132;
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  z-index: -1;
+}
   
   /* Header */
   .header{
@@ -220,7 +237,7 @@
 }
 .nav-pills .nav-link{
   max-width: 100%;
-  width: 315px;
+  width: 120px;
   background: #e8e8e8;
   margin: 10px;
 }
@@ -246,8 +263,7 @@
 /* club-area */
 
 .club-area{
-    padding: 30px 0 30px;
-    background: #1e2643;
+    padding: 30px 0 50px;
 }
 .club-img{
     background-color: #D9AFD9;
