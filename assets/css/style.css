@@ -198,8 +198,11 @@
   text-align: center;
   border: 1px solid black;
 }
+.table_img img{
+  width: 12%;
+}
 .second-table td{
-    height: 82px;
+    height: 50px;
     vertical-align: middle;
 }
 .third-table-row{
@@ -261,6 +264,13 @@
   width: 120px;
   background: #e8e8e8;
   margin: 10px;
+}
+@media only screen and (max-width:1400px){
+  .nav-pills .nav-link{
+    width: 60px;
+    height: 30px;
+    padding: 4px;
+  }
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
@@ -342,6 +352,8 @@
   height: 100%;
 }
 .matchweek{
+  margin-top: 8px;
+  margin-bottom: 8px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -349,9 +361,12 @@
 .match_score{
   box-shadow: 0 0 12px rgb(212, 212, 212);
   padding: 10px 16px;
+  text-align: center;
+  width:6%
 }
 .matchweek h5{
   margin-top: 10px;
+  width: 19%;
 }
 .match_time{
   text-align: center;
@@ -362,13 +377,14 @@
 }
 @media only screen and (max-width:767px){
   .matchweek h5{
-    font-size: 13px;
+    font-size: 11px;
+    width: 24%;
   }
   .match_time{
-    font-size: 13px;
+    font-size: 12px;
   }
   .match_score{
-    padding: 7px 12px;
+    padding: 4px 0px;
   }
   .matchweek img{
     width: 9%;
