@@ -190,6 +190,14 @@
     border-bottom-right-radius: 10px;
     box-shadow: 0px 5px 10px #282828cc;
 }
+.table-tab3{
+  background: #fff;
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
 .second-table td{
     height: 82px;
     vertical-align: middle;
@@ -280,6 +288,15 @@
     background: #e4e4e440;
     padding: 30px 0 25px;
 }
+@media only screen and (max-width:767px){
+  .sponsors h3{
+    text-align: center;
+  }
+  .spon1{
+    width: 33%;
+  }
+}
+
 
 /* club-area */
 
@@ -341,7 +358,7 @@
 }
 .matchweek img{
   max-width: 100%;
-  width: 80px;
+  width: 50px;
 }
 @media only screen and (max-width:767px){
   .matchweek h5{
