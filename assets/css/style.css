@@ -247,6 +247,18 @@
     padding: 8px;
     margin-bottom: 10px;
 }
+@media only screen and (max-width:1400px){
+  .transfer-box{
+    margin-bottom: 0px;
+}
+  .transfer-box p{
+    font-size: 12px;
+  }
+  .transfer-box h6{
+    font-size: 14px;
+  }
+}
+
 .nav-pills .nav-link{
   max-width: 100%;
   width: 120px;
@@ -355,7 +367,12 @@
 /* news-interest */
 
 .news-interest{
-    padding: 10px 0 30px;
+    padding: 15px 0 30px;
+}
+.news_highlights{
+  padding: 26px 10px 9px;
+  box-shadow: -6px 7px 12px #cfcfcf;
+  border-radius: 10px;
 }
 .news-para{
     font-size: 11px;
@@ -468,3 +485,4 @@
     top: 0;
   }
 }
+

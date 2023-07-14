@@ -17,9 +17,6 @@
     <!-- owl carousel -->
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/owl.theme.green.css">
-    <!-- slick slider -->
-    <link rel="stylesheet" href="./assets/css/slick.css">
-    <link rel="stylesheet" href="./assets/css/slick-theme.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -141,7 +138,7 @@
                                 <img src="./assets/img/news/ckc2.jpg" class="img-fluid rounded mb-2" alt="">
                                 <h6 class="mt-2">Bengal enter Santosh Trophy final</h6>
                             </div>
-                            <div class="p-1 mt-4">
+                            <div class="p-1 mt-lg-4">
                                 <img src="./assets/img/news/ckc3.jpg" class="img-fluid rounded mb-2" alt="">
                                 <h6>Bengal pip Punjab to the post in Santosh Trophy</h6>
                             </div>
@@ -149,7 +146,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-4 third-table-row">
+                <div class="col-lg-4 third-table-row d-none d-lg-block">
                     <div class="third-table">
                         <div class="top-score">
                             <h3 class="text-light text-center mb-0  pb-3 pt-2">STANDINGS</h3>
@@ -458,7 +455,7 @@
                                 <div class="transfer-box">
                                     <h6 class="text-start">Done Deal</h6>
                                     <hr>
-                                    <div class="d-flex">
+                                    <div class="d-flex justify-content-center">
                                         <div>
                                             <img src="./assets/icons/icons8-barcelona-fc-48.png" class="img-fluid" alt="icons8-barcelona-fc-48.png">
                                             <hr>
@@ -481,7 +478,7 @@
                                 <div class="transfer-box">
                                     <h6 class="text-start">Done Deal</h6>
                                     <hr>
-                                    <div class="d-flex">
+                                    <div class="d-flex justify-content-center">
                                         <div>
                                             <img src="./assets/icons/icons8-barcelona-fc-48.png" class="img-fluid" alt="icons8-barcelona-fc-48.png">
                                             <hr>
@@ -504,7 +501,7 @@
                                 <div class="transfer-box">
                                     <h6 class="text-start">Done Deal</h6>
                                     <hr>
-                                    <div class="d-flex">
+                                    <div class="d-flex justify-content-center">
                                         <div>
                                             <img src="./assets/icons/icons8-barcelona-fc-48.png" class="img-fluid" alt="icons8-barcelona-fc-48.png">
                                             <hr>
@@ -527,7 +524,7 @@
                                 <div class="transfer-box">
                                     <h6 class="text-start">Done Deal</h6>
                                     <hr>
-                                    <div class="d-flex">
+                                    <div class="d-flex justify-content-center">
                                         <div>
                                             <img src="./assets/icons/icons8-barcelona-fc-48.png" class="img-fluid" alt="icons8-barcelona-fc-48.png">
                                             <hr>
@@ -551,9 +548,6 @@
                                     <a href="#" class="btn-1">View all</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="mt-4">
-                            <h1 class="heading_text">Our Legends</h1>
                         </div>
                     </div>
                 </div>
@@ -614,7 +608,7 @@
                             "nav": false, 
                             "dots":false, 
                             "loop":true, 
-                            "responsive":{ "0" :{ "items": 3 },"600":{ "items": 4 },"1000":{ "items": 7 }}
+                            "responsive":{ "0" :{ "items": 4 },"600":{ "items": 4 },"1000":{ "items": 7 }}
                         }'>
                             <div class="item">
                                 <img src="./assets/img/clubs/1.png" class="img-fluid" alt="" width="70%">
@@ -653,7 +647,7 @@
                         data-owl-carousel='{
                             "margin": 10, 
                             "dots":false, 
-                            "responsive":{"0":{"items":2}, "600":{"items":4},"1000":{"items":7}}
+                            "responsive":{"0":{"items":4}, "600":{"items":4},"1000":{"items":7}}
                         }'>
                             <div class="item">
                                 <img src="./assets/img/clubs/1.png" class="img-fluid" alt="" width="70%">
@@ -694,6 +688,376 @@
             
         </div>
     </section>  
+
+    <section class="d-lg-none d-block mt-3 mb-3">
+        <div class="container">
+            <div class="third-table">
+                <div class="top-score">
+                    <h3 class="text-light text-center mb-0  pb-3 pt-2">STANDINGS</h3>
+                </div>
+                <div class="table-tab">
+                    <ul class="nav nav-pills d-flex justify-content-center mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-cfl-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-cfl" type="button" role="tab" aria-controls="pills-cfl"
+                                aria-selected="true">CFL</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-ifa-tab" data-bs-toggle="pill" data-bs-target="#pills-ifa"
+                                type="button" role="tab" aria-controls="pills-ifa" aria-selected="false">IFA</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-cfl" role="tabpanel"
+                            aria-labelledby="pills-cfl-tab">
+                            <table class="table table-striped table-light">
+                                <tr>
+                                    <th>Pos.</th>
+                                    <th>Clubs</th>
+                                    <th>Pl.</th>
+                                    <th>Pts.</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        Aryan Club
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        BSS Sporting Club
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        East Bengal
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        Geo. Tele. S. C.
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        Kidderpore
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        M.D Sporting Club
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                            </table>
+                            <div class="d-block m-auto">
+                                <a href="#" class="btn-1">View all >></a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-ifa" role="tabpanel" aria-labelledby="pills-ifa-tab">
+                            <table class="table table-striped table-light">
+                                <tr>
+                                    <th>Pos.</th>
+                                    <th>Clubs</th>
+                                    <th>Pl.</th>
+                                    <th>Pts.</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        Aryan Club
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        BSS Sporting Club
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        East Bengal
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        Geo. Tele. S. C.
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        Kidderpore
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>
+                                        <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                        M.D Sporting Club
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                            </table>
+                            <div class="d-block m-auto">
+                                <a href="#" class="btn-1">View all >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="mt-5">
+                    <div class="top-score">
+                        <h3 class="text-light text-center mb-0  pb-3 pt-2">TOP SCORE</h3>
+                    </div>
+                    <div class="table-tab">
+                        <ul class="nav nav-pills d-flex justify-content-center mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-cfl2-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-cfl2" type="button" role="tab" aria-controls="pills-cfl2"
+                                    aria-selected="true">CFL</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-ifa2-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-ifa2" type="button" role="tab" aria-controls="pills-ifa2"
+                                    aria-selected="false">IFA</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-cfl2" role="tabpanel"
+                                aria-labelledby="pills-cfl2-tab">
+                                <table class="table table-striped table-light second-table">
+                                    <tr>
+                                        <th>Sr No.</th>
+                                        <th>Club Name</th>
+                                        <th>Goal Scored</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>
+                                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                            Aryan Club
+                                        </td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                            BSS Sporting Club
+                                        </td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                            East Bengal
+                                        </td>
+                                        <td>0</td>
+                                    </tr>
+                                </table>
+                                <div class="d-block m-auto">
+                                    <a href="#" class="btn-1">View all >></a>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-ifa2" role="tabpanel" aria-labelledby="pills-ifa2-tab">
+                                <table class="table table-striped table-light second-table">
+                                    <tr>
+                                        <th>Sr No.</th>
+                                        <th>Club Name</th>
+                                        <th>Goal Scored</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>
+                                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                            Aryan Club
+                                        </td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                            BSS Sporting Club
+                                        </td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                                            East Bengal
+                                        </td>
+                                        <td>0</td>
+                                    </tr>
+                                </table>
+                                <div class="d-block m-auto">
+                                    <a href="#" class="btn-1">View all >></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="mt-4">
+                    <div class="top-score">
+                        <h3 class="text-light text-center mb-0  pt-3 pb-2">TRANSFERS</h3>
+                    </div>
+                    <div class="table-tab3">
+                        <div class="transfer-box">
+                            <h6 class="text-start">Done Deal</h6>
+                            <hr>
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assets/icons/icons8-barcelona-fc-48.png" class="img-fluid"
+                                        alt="icons8-barcelona-fc-48.png">
+                                    <hr>
+                                    <p>KHIDDIRPORE F.C</p>
+                                </div>
+                                <div class="text-center">
+                                    <h6>Shivyansh Iyer</h6>
+                                    <p>MidFielder</p>
+                                    <img src="./assets/icons/icons8-arrow-50.png" class="img-fluid"
+                                        alt="icons8-arrow-50.png">
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="./assets/icons/icons8-chelsea-fc-48.png" class="img-fluid"
+                                            alt="icons8-barcelona-fc-48.png">
+                                        <hr>
+                                        <p>KHIDDIRPORE F.C</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transfer-box">
+                            <h6 class="text-start">Done Deal</h6>
+                            <hr>
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assets/icons/icons8-barcelona-fc-48.png" class="img-fluid"
+                                        alt="icons8-barcelona-fc-48.png">
+                                    <hr>
+                                    <p>KHIDDIRPORE F.C</p>
+                                </div>
+                                <div class="text-center">
+                                    <h6>Shivyansh Iyer</h6>
+                                    <p>MidFielder</p>
+                                    <img src="./assets/icons/icons8-arrow-50.png" class="img-fluid"
+                                        alt="icons8-arrow-50.png">
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="./assets/icons/icons8-chelsea-fc-48.png" class="img-fluid"
+                                            alt="icons8-barcelona-fc-48.png">
+                                        <hr>
+                                        <p>KHIDDIRPORE F.C</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transfer-box">
+                            <h6 class="text-start">Done Deal</h6>
+                            <hr>
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assets/icons/icons8-barcelona-fc-48.png" class="img-fluid"
+                                        alt="icons8-barcelona-fc-48.png">
+                                    <hr>
+                                    <p>KHIDDIRPORE F.C</p>
+                                </div>
+                                <div class="text-center">
+                                    <h6>Shivyansh Iyer</h6>
+                                    <p>MidFielder</p>
+                                    <img src="./assets/icons/icons8-arrow-50.png" class="img-fluid"
+                                        alt="icons8-arrow-50.png">
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="./assets/icons/icons8-chelsea-fc-48.png" class="img-fluid"
+                                            alt="icons8-barcelona-fc-48.png">
+                                        <hr>
+                                        <p>KHIDDIRPORE F.C</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transfer-box">
+                            <h6 class="text-start">Done Deal</h6>
+                            <hr>
+                            <div class="d-flex">
+                                <div>
+                                    <img src="./assets/icons/icons8-barcelona-fc-48.png" class="img-fluid"
+                                        alt="icons8-barcelona-fc-48.png">
+                                    <hr>
+                                    <p>KHIDDIRPORE F.C</p>
+                                </div>
+                                <div class="text-center">
+                                    <h6>Shivyansh Iyer</h6>
+                                    <p>MidFielder</p>
+                                    <img src="./assets/icons/icons8-arrow-50.png" class="img-fluid"
+                                        alt="icons8-arrow-50.png">
+                                </div>
+                                <div>
+                                    <div>
+                                        <img src="./assets/icons/icons8-chelsea-fc-48.png" class="img-fluid"
+                                            alt="icons8-barcelona-fc-48.png">
+                                        <hr>
+                                        <p>KHIDDIRPORE F.C</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 mb-2">
+                            <a href="#" class="btn-1">View all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="mt-3 mb-3">
         <div class="container">
@@ -771,89 +1135,88 @@
             </div>
         </div>
     </section>
-    
-    <section class="pt-4 pb-4 bg-light">
-        <div class="container">
-            <div class="col-lg-4">
-                <h1 class="heading_text">Match Highlights</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-8">
-                    <div>
-                        <div class="owl-carousel owl-theme" data-owl-carousel='{"margin": 10, "nav": true, "dots":false, "loop":true, "responsive":{ "0" :{ "items": 1 },"600":3}}'>
-                            <div class="item">
-                                <iframe width="100%" height="150" src="https://www.youtube.com/embed/ghmG_-HHzcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            </div>
-                            <div class="item">
-                                <iframe width="100%" height="150" src="https://www.youtube.com/embed/jlhY2PKaROE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            </div>
-                            <div class="item">
-                                <iframe width="100%" height="150" src="https://www.youtube.com/embed/_D85AAgXJu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            </div>
-                            <div class="item">
-                                <iframe width="100%" height="150" src="https://www.youtube.com/embed/WuyNPrW2nmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            </div>
-                            <div class="item">
-                                <iframe width="100%" height="150" src="https://www.youtube.com/embed/C7VzPPBHnCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="news-interest">
         <div class="container">
-            <div>
-                <h1 class="heading_text">News And Interest</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="./assets/img/news/news.png" class="img-fluid rounded mb-2" alt="">
-                    <h3>BENGAL SANTOS TROPHY
-                        RUNNERS-UP</h3>
-                    <p>In a cliffhanger final, Bengal lost to Kerala 5-6 via a penalty shootout yesterday in the...</p>
-                    <a href="#" class="btn-1">Read More</a>
+            <div class="row news_highlights">
+                <div class="col-lg-8">
+                    <div>
+                        <h1 class="heading_text">News And Interest</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <img src="./assets/img/news/1.jpeg" class="img-fluid rounded mb-2" alt="">
+                            <h3>BENGAL SANTOS TROPHY
+                                RUNNERS-UP</h3>
+                            <p>In a cliffhanger final, Bengal lost to Kerala 5-6 via a penalty shootout yesterday in the...</p>
+                            <div class="mt-5">
+                                <a href="#" class="btn-1">Read More</a>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="p-1">
+                                <img src="./assets/img/news/2.jpg" class="img-fluid rounded-top mb-2" alt="">
+                                <h6>BENGAL SANTOS TROPHY
+                                    RUNNERS-UP</h6>
+                                <p class="news-para">
+                                    Bengal made short work of strong contenders 
+                                    Manipur to enter the final of Santosh Trophy 
+                                    football...
+                                </p>
+                            </div>
+                            <div class="p-1">
+                                <img src="./assets/img/news/3.jpg" class="img-fluid rounded-top mb-2" alt="">
+                                <h6>BENGAL ENTER SANTOSH
+                                    SEMIS</h6>
+                                <p class="news-para">
+                                    Bengal routed Rajasthan 3-0 in a Santosh Trophy game today to cruise into the semifinals. Two...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <img src="./assets/img/news/1.png" class="img-fluid rounded-top" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <h6>BENGAL SANTOS TROPHY
-                                RUNNERS-UP</h6>
-                            <p class="news-para">
-                                Bengal made short work of strong contenders 
-                                Manipur to enter the final of Santosh Trophy 
-                                football...
-                            </p>
+                    <div class="">
+                        <h1 class="heading_text">Match Highlights</h1>
+                    </div>
+                    <div>
+                        <div class="owl-carousel owl-theme" data-owl-carousel='{"margin": 10, "nav": true, "dots":false, "loop":true, "responsive":{ "0" :{ "items": 1 }}}'>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/ghmG_-HHzcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/jlhY2PKaROE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/_D85AAgXJu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/WuyNPrW2nmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/C7VzPPBHnCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <img src="./assets/img/news/2.png" class="img-fluid rounded-top" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <h6>BENGAL ENTER SANTOSH
-                                SEMIS</h6>
-                            <p class="news-para">
-                                Bengal routed Rajasthan 3-0 in a Santosh Trophy game today to cruise into the semifinals. Two...
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <img src="./assets/img/news/3.png" class="img-fluid rounded-top" alt="">
-                        </div>
-                        <div class="col-lg-7">
-                            <h6>ANIRBAN DUTTA NEW IFA
-                                TREASURER</h6>
-                            <p class="news-para">
-                                Mr. Anirban Dutta was today
-                                unanimously elected the Treasurer of the Indian Football Association (WB).
-                            </p>
+                    <div>
+                        <div class="owl-carousel owl-theme" data-owl-carousel='{"margin": 10, "nav": true, "dots":false, "loop":true, "responsive":{ "0" :{ "items": 1 }}}'>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/ghmG_-HHzcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/jlhY2PKaROE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/_D85AAgXJu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/WuyNPrW2nmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="item">
+                                <iframe width="100%" height="220" src="https://www.youtube.com/embed/C7VzPPBHnCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -965,27 +1328,8 @@
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
-    <!-- <script>
-        $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 20,
-                nav: true,
-                dots:false,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 3
-                    }
-                }
-            })
-    </script>  -->
+   
     <script>
         var $carousel = $('[data-owl-carousel]');
         if ($carousel.length) {
@@ -994,38 +1338,7 @@
             });
         }
     </script>
-    <script>
-        $('.autoplay').slick({
-            slidesToShow: 6,
-            slidesToScroll: 3,
-            arrows:true,
-            autoplay: false,
-            centerMode: true,
-            autoplaySpeed: 2000,
-            responsive: [
-        {
-        breakpoint: 768,
-        settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 3,
-            slidesToScroll: 1
-        }
-        },
-        {
-        breakpoint: 480,
-        settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 2,
-            slidesToScroll: 1
-        }
-        }
-    ]
-    });
-    </script>
+
 </body>
 
 </html>
