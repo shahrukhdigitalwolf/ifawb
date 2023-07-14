@@ -32,6 +32,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="fixtures.html">Fixture & Results</a>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     About Us
@@ -82,9 +85,6 @@
                                 <a class="nav-link" href="#">Talent Hunt</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="fixtures.html">Fixture</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="#">Tournament</a>
                             </li>
                             <li class="nav-item">
@@ -109,7 +109,7 @@
                 <form action="#">
                     <div class="row">
                         <div class="col-lg-2">
-                            <div>
+                            <div class="table_select">
                                 <label for="">Season</label><br>
                                 <select name="" id="">
                                     <option value="1">2022-2023</option>
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                         <div class="col-lg-2">
-                            <div>
+                            <div class="table_select">
                                 <label for="">Sort</label><br>
                                 <select name="" id="">
                                     <option value="1">Normal</option>
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                         <div class="col-lg-2">
-                            <div>
+                            <div class="table_select">
                                 <label for="">Competition</label><br>
                                 <select name="" id="">
                                     <option value="1">CFL</option>
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class="col-lg-2">
-                            <div>
+                            <div class="table_select">
                                 <label for="">Filter by home / Away</label><br>
                                 <select name="" id="">
                                     <option value="1">All</option>
@@ -162,217 +162,289 @@
     <section class="pt-3 pb-3">
         <div class="container">
             <div>
-                <h1>Group A</h1>
+                <h1 class="heading_text">Group A</h1>
             </div>
-            <div class="table-responsive">
+            <div class="table-responsive shadow p-3 mb-5 bg-body rounded border">
                 <table class="table table-stripeds">
                     <tr>
-                        <th>Pos</th>
+                        <th>#</th>
                         <th>Team</th>
-                        <th>Pld.</th>
-                        <th>Pts.</th>
+                        <th>M</th>
                         <th>W</th>
                         <th>D</th>
                         <th>L</th>
-                        <th>GF</th>
-                        <th>GA</th>
-                        <th>GD</th>
+                        <th>Goals</th>
+                        <th>+/-</th>
                         <th>Pts</th>
+                        <th>Recent Form</th>
                     </tr>
                     <tr>
                         <td>1</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Kalighat MS</td>
+                            <img src="./assets/img/clubs/17.png" class="img-fluid" alt="">
+                            Mohan Bagan</td>
+                        <td>2</td>
+                        <td>2</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>8:2</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Diamond Harbour FC</td>
+                            <img src="./assets/img/clubs/11.png" class="img-fluid" alt="">
+                            Kalighat</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>4:1</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Mohun Bagan SG</td>
+                            <img src="./assets/img/clubs/16.png" class="img-fluid" alt="">
+                            Diamond Harbour</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>3:1</td>
+                        <td>4</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                            </div> 
+                        </td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Calcutta FC</td>
+                            <img src="./assets/img/clubs/18.png" class="img-fluid" alt="">
+                           Mohammedan</td>
+                        <td>1</td>
+                        <td>1</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>7:0</td>
+                        <td>7</td>
+                        <td>3</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                                
+                            </div> 
+                        </td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Peerless</td>
+                            <img src="./assets/img/clubs/28.png" class="img-fluid" alt="">
+                            United SC</td>
+                        <td>1</td>
+                        <td>1</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>2:0</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                                
+                            </div>  
+                        </td>
                     </tr>
                     <tr>
                         <td>6</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Dalhousie AC</td>
+                            <img src="./assets/img/clubs/20.png" class="img-fluid" alt="">
+                            Pearless</td>
+                        <td>2</td>
                         <td>0</td>
+                        <td>2</td>
                         <td>0</td>
+                        <td>2:2</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>2</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                
+                            </div>  
+                        </td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Tollygunge Agragami</td>
+                            <img src="./assets/img/clubs/15.png" class="img-fluid" alt="">
+                            Dalhousie</td>
+                        <td>2</td>
                         <td>0</td>
+                        <td>2</td>
                         <td>0</td>
+                        <td>1:1</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>2</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                
+                            </div> 
+                        </td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
+                            <img src="./assets/img/clubs/9.png" class="img-fluid" alt="">
                             Army Red</td>
+                        <td>1</td>
                         <td>0</td>
+                        <td>1</td>
                         <td>0</td>
+                        <td>1:1</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>1</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>9</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Mohammedan Sporting</td>
+                            <img src="./assets/img/clubs/21.png" class="img-fluid" alt="">
+                            Southern Samity</td>
+                        <td>2</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1:3</td>
+                        <td>-2</td>
+                        <td>1</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>10</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            United</td>
+                            <img src="./assets/img/clubs/25.png" class="img-fluid" alt="">
+                            Tollygunge Agragami</td>
+                        <td>2</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1:5</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>11</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Pathachakra</td>
+                            <img src="./assets/img/clubs/14.png" class="img-fluid" alt="">
+                            Calcutta</td>
+                        <td>2</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1:8</td>
+                        <td>-7</td>
+                        <td>1</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>12</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Southern Samity</td>
+                            <img src="./assets/img/clubs/27.png" class="img-fluid" alt="">
+                            Food Corporation</td>
+                        <td>1</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>1</td>
+                        <td>0:3</td>
+                        <td>-3</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>13</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            FCI (East Zone)</td>
+                            <img src="./assets/img/clubs/19.png" class="img-fluid" alt="">
+                            Patha Chakra</td>
+                        <td>2</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>2</td>
+                        <td>1:5</td>
+                        <td>-4</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                            </div>
+                        </td>
                     </tr>
                 </table>
             </div>
@@ -381,217 +453,289 @@
     <section class="pt-3 pb-3">
         <div class="container">
             <div>
-                <h1>Group B</h1>
+                <h1 class="heading_text">Group B</h1>
             </div>
-            <div class="table-responsive">
+            <div class="table-responsive shadow p-3 mb-5 bg-body rounded border">
                 <table class="table table-stripeds">
                     <tr>
-                        <th>Pos</th>
+                        <th>#</th>
                         <th>Team</th>
-                        <th>Pld.</th>
-                        <th>Pts.</th>
+                        <th>M</th>
                         <th>W</th>
                         <th>D</th>
                         <th>L</th>
-                        <th>GF</th>
-                        <th>GA</th>
-                        <th>GD</th>
+                        <th>Goals</th>
+                        <th>+/-</th>
                         <th>Pts</th>
+                        <th>Recent Form</th>
                     </tr>
                     <tr>
                         <td>1</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Kalighat MS</td>
+                            <img src="./assets/img/clubs/5.png" class="img-fluid" alt="">
+                            Bhawanipore</td>
+                        <td>2</td>
+                        <td>2</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>8:2</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Diamond Harbour FC</td>
+                            <img src="./assets/img/clubs/8.png" class="img-fluid" alt="">
+                            George Telegraph</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>4:1</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Mohun Bagan SG</td>
+                            <img src="./assets/img/clubs/4.png" class="img-fluid" alt="">
+                            Aryan</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>3:1</td>
+                        <td>4</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                            </div> 
+                        </td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Calcutta FC</td>
+                            <img src="./assets/img/clubs/10.png" class="img-fluid" alt="">
+                           Railway</td>
+                        <td>1</td>
+                        <td>1</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>7:0</td>
+                        <td>7</td>
+                        <td>3</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                                
+                            </div> 
+                        </td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Peerless</td>
+                            <img src="./assets/img/clubs/23.png" class="img-fluid" alt="">
+                            Wari</td>
+                        <td>1</td>
+                        <td>1</td>
                         <td>0</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>2:0</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-success rounded me-2 ps-2 pe-2 text-light ">W</p>
+                                
+                                
+                            </div>  
+                        </td>
                     </tr>
                     <tr>
                         <td>6</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Dalhousie AC</td>
+                            <img src="./assets/img/clubs/12.png" class="img-fluid" alt="">
+                            Kidderpore</td>
+                        <td>2</td>
                         <td>0</td>
+                        <td>2</td>
                         <td>0</td>
+                        <td>2:2</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>2</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                
+                            </div>  
+                        </td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Tollygunge Agragami</td>
+                            <img src="./assets/img/clubs/2.png" class="img-fluid" alt="">
+                            Calcutta Customs</td>
+                        <td>2</td>
                         <td>0</td>
+                        <td>2</td>
                         <td>0</td>
+                        <td>1:1</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>2</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                
+                            </div> 
+                        </td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Army Red</td>
+                            <img src="./assets/img/clubs/29.png" class="img-fluid" alt="">
+                            Police AC</td>
+                        <td>1</td>
                         <td>0</td>
+                        <td>1</td>
                         <td>0</td>
+                        <td>1:1</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>1</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>9</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Mohammedan Sporting</td>
+                            <img src="./assets/img/clubs/7.png" class="img-fluid" alt="">
+                            East Bengal</td>
+                        <td>2</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1:3</td>
+                        <td>-2</td>
+                        <td>1</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>10</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            United</td>
+                            <img src="./assets/img/clubs/30.png" class="img-fluid" alt="">
+                            NBP Rainbow AC</td>
+                        <td>2</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1:5</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                                
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>11</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Pathachakra</td>
+                            <img src="./assets/img/clubs/24.png" class="img-fluid" alt="">
+                            West Bengal</td>
+                        <td>2</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1:8</td>
+                        <td>-7</td>
+                        <td>1</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                                <p class="bg-warning rounded me-2 ps-2 pe-2 text-light ">D</p>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>12</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            Southern Samity</td>
+                            <img src="./assets/img/clubs/10.png" class="img-fluid" alt="">
+                            Eastern Railway</td>
+                        <td>1</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>1</td>
+                        <td>0:3</td>
+                        <td>-3</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                            </div>
+                        </td>
                     </tr>
                     <tr>
                         <td>13</td>
                         <td>
-                            <img src="./assets/icons/ARC-CR1.png" class="img-fluid" alt="">
-                            FCI (East Zone)</td>
+                            <img src="./assets/img/clubs/6.png" class="img-fluid" alt="">
+                            BSS Sporting</td>
+                        <td>2</td>
                         <td>0</td>
                         <td>0</td>
+                        <td>2</td>
+                        <td>1:5</td>
+                        <td>-4</td>
                         <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
+                        <td>
+                            <div class="d-flex">
+                                <p class="bg-light rounded ps-2 pe-2 ">?</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                                <p class="bg-danger rounded me-2 ps-2 pe-2 text-light ">L</p>
+                            </div>
+                        </td>
                     </tr>
                 </table>
             </div>
