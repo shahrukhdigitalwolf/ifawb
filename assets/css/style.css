@@ -366,7 +366,7 @@
 }
 .matchweek h5{
   margin-top: 10px;
-  width: 19%;
+  width: 26%;
 }
 .match_time{
   text-align: center;
@@ -510,5 +510,11 @@
   .nagendra-prasad::before{
     top: 0;
   }
+}
+
+.table_select select{
+  padding: 8px 8px;
+  border: none;
+  box-shadow: 0 0 12px rgb(232, 232, 232);
 }
 
