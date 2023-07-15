@@ -31,7 +31,7 @@
     font-family: 'Archivo', sans-serif;
   }
   p{
-    font-size: 16px;
+    font-size: 15px;
   }
   a{
     text-decoration: none;
@@ -235,6 +235,14 @@
         
     }
 }
+.standing_table tr td:nth-child(2){
+  font-weight: 600;
+  font-size: 13px;
+  text-align: left;
+}
+.standing_table tr td{
+  text-align: center;
+}
 
 .kdsk img{
   box-shadow: -4px 4px 10px gray;
@@ -289,14 +297,16 @@
 }
 @media only screen and (max-width:1400px){
   .nav-pills .nav-link{
-    width: 60px;
+    width: 75px;
     height: 30px;
     padding: 4px;
   }
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #d98132;
+    background-color: #d93232;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
 }
 .scr_box{
   padding: 10px;
@@ -467,6 +477,8 @@
 }
 .table-stripeds tr td:nth-child(2){
   text-align: left;
+  font-size: 14px;
+  font-weight: 600;
 }
 .table-stripeds tr td:nth-child(9){
   font-weight: 600;
