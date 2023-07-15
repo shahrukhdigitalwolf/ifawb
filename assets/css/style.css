@@ -72,6 +72,12 @@
     padding-top: 55px;
   }
 }
+.navbar-light .navbar-toggler-icon {
+  filter: invert(1);
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
 
 .heading_text{
   position: relative;
@@ -181,7 +187,7 @@
   /* Table Area */
 
 .table-area{
-    padding-top: 30px;
+    padding-top: 20px;
     position: relative;
     z-index: 20;
 }
@@ -372,6 +378,7 @@
 .club_bg{
   position: relative;
   z-index: 20;
+  padding: 8px 13px;
   border-radius: 5px;
   transition: all .2s ease-in-out;
 }
@@ -400,6 +407,9 @@
   transform: translate(0px, -5px);
   box-shadow: -15px 15px 15px #d2d2d2 !important ;
 }
+.club_bg img{
+  width: 80px;
+}
 .matchweek{
   margin-top: 8px;
   margin-bottom: 8px;
@@ -417,7 +427,7 @@
   width: 26%;
 }
 .matchweek h6{
-  box-shadow: 1px 0 12px rgb(193, 193, 193);
+  box-shadow: 1px 0 12px rgb(233 233 233);
   border-radius: 7px;
 }
 .match_time{
@@ -467,6 +477,10 @@
   border-radius: 7px;
 }
 .match_time{
+  text-align: center;
+  color: #000000;
+}
+.match_time1{
   text-align: center;
   color: #ffffff;
 }
