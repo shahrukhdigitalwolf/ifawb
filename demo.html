@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="./assets/fonts/lg.ttf">
+</head>
+<body>
+
+    <div id="lightgallery">
+        <a href="./assets/img/clubs/1.png" data-lg-size="1600-2400">
+            <img alt="img1" src="./assets/img/clubs/1.png" />
+        </a>
+        <a href="./assets/img/clubs/2.png" data-lg-size="1024-800">
+            <img alt="img2" src="./assets/img/clubs/2.png" />
+        </a>
+        ...
+    </div>
+    
+    
+    <script src="./assets/js/lightgallery.umd.js"></script>
+    <script src="./assets/js/lg-thumbnail.umd.js"></script>
+    <script src="./assets/js/lg-zoom.umd.js"></script>
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery'), {
+            plugins: [lgZoom, lgThumbnail],
+            licenseKey: 'your_license_key',
+            speed: 500,
+            // ... other settings
+        });
+    </script>
+</body>
+</html>

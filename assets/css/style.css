@@ -99,11 +99,19 @@
   /* Header */
   .header{
     background-color: #2e3550;
+    position: sticky;
+    top: 0;
+    z-index: 999;
   }
   .logo{
     position: absolute;
     top: 0;
     width: 72px;
+    transition: all .5s ease;
+  }
+  .logo1{
+    width: 40px;
+    transition: all .5s ease-in-out;
   }
   .nav-link{
     font-family: 'Roboto', sans-serif;
@@ -403,6 +411,7 @@
   left: 0;
   width: 5px;
   height: 100%;
+  border-radius: 5px;
 }
 .club_bg:hover{
   transform: translate(0px, -5px);
@@ -410,6 +419,17 @@
 }
 .club_bg img{
   width: 80px;
+}
+@media (max-width:767px) {
+  .clubs .col-lg-2{
+    width: 50%;
+  }
+  .club_bg img{
+    width: 50px;
+  }
+  .clubs h6{
+    font-size: 15px;
+  }
 }
 .matchweek{
   margin-top: 8px;
@@ -428,8 +448,9 @@
   width: 26%;
 }
 .matchweek h6{
-  box-shadow: 1px 0 12px rgb(233 233 233);
+  box-shadow: -3px 4px 8px rgb(180 180 180);
   border-radius: 7px;
+  border: 1px solid;
 }
 .match_time{
   text-align: center;
@@ -530,7 +551,7 @@
   background-position: center center;
   width: 100%;
   height: 100%;
-  padding: 50px 0 50px;
+  padding: 35px 0 35px;
 }
 .banner h1{
   text-align: center;
@@ -618,7 +639,7 @@
 .table_select select{
   padding: 8px 8px;
   border: none;
-  box-shadow: 0 0 12px rgb(232, 232, 232);
+  box-shadow: -11px 10px 12px rgb(198 198 198);
 }
 
 .mtc_high{
@@ -633,3 +654,53 @@
 .mtc_high p{
   font-size: 13px;
 }
+
+
+.social-menu ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin-right: 10px;
+}
+
+.social-menu ul li .fab{
+  font-size: 23px;
+  line-height: 48px;
+  transition: .3s;
+  color: #000;
+}
+
+.social-menu ul li .fab:hover{
+  color: #fff;
+}
+
+.social-menu ul li a{
+  position: relative;
+  display: block;
+  width: 47px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+  transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: rgba(206, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover{
+  background-color: #E4405F;
+}
+.social-menu ul li:nth-child(3) a:hover{
+  background-color: #0077b5;
+}
+
