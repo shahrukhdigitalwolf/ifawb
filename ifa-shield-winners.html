@@ -11,6 +11,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="./assets/fonts/ARIAL.TTF">
+     <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
      <!-- bootstrap css -->
      <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
      <!-- owl carousel -->
@@ -32,6 +33,12 @@
             transition: all .4s ease;
             opacity: 1 !important;
         }
+        .owl-item.active.center h5{
+            transform: scale(1);
+            top: 0;
+            opacity: 1;
+            transition: all .4s ease;
+        }
         .owl-prev span, .owl-next span{
             font-size: 25px;
             background-color:#df9552;
@@ -40,6 +47,22 @@
         .owl-theme .owl-nav [class*='owl-']:hover{
             background-color: transparent;
             color: black;
+        }
+        .item h5{
+            font-family: 'Shojumaru', cursive;
+            position: relative;
+            top: -20px;
+            font-size: 28px;
+            padding: 5px;
+            text-align: center;
+            transform: scale(.8);
+            opacity: .5;
+            transition: all .4s ease;
+        }
+        @media (max-width:767px) {
+            .item h5{
+                font-size: 18px;
+            }
         }
      </style>
 
@@ -61,7 +84,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="fixtures.html">Fixture & Results</a>
@@ -85,7 +108,7 @@
                                     <li><a class="dropdown-item" href="secretarys-message.html">Secretary’s message</a>
                                     </li>
                                     <hr style="margin: 5px;">
-                                    <li class="nav-item dropdown"><a class="dropdown-item" href="#">Member’s list</a>
+                                    <li class="nav-item dropdown"><a class="dropdown-item" href="governing-body.html">Member’s list</a>
                                     </li>
                                     <hr style="margin: 5px;">
                                     <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
@@ -123,7 +146,7 @@
                                 <a class="nav-link" href="talent-hunt.html">Talent Hunt</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Tournament</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a class="dropdown-item" href="tournament-list.html">Tournament List</a></li>
@@ -164,19 +187,468 @@
                 "responsive":{ "0" :{ "items": 2 },"600":{ "items": 4 },"1000":{ "items": 4 }}
             }'>
                 <div class="item">
-                    <img src="./assets/img/legends/MEAWALAL2.png" class="card-img img-fluid" alt="...">
+                    <img src="./assets/img/ifa-shield-winner/Real_Kashmir.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2022</h5>
                 </div>
                 <div class="item">
-                    <img src="./assets/img/legends/MEAWALAL2.png" class="card-img img-fluid" alt="...">
+                    <img src="./assets/img/ifa-shield-winner/Real_Kashmir.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2021</h5>
                 </div>
                 <div class="item">
-                    <img src="./assets/img/legends/MEAWALAL2.png" class="card-img img-fluid" alt="...">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2018</h5>
                 </div>
                 <div class="item">
-                    <img src="./assets/img/legends/MEAWALAL2.png" class="card-img img-fluid" alt="...">
+                    <img src="./assets/img/ifa-shield-winner/FC_Pune_City_U-19.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2017</h5>
                 </div>
                 <div class="item">
-                    <img src="./assets/img/legends/MEAWALAL2.png" class="card-img img-fluid" alt="...">
+                    <img src="./assets/img/ifa-shield-winner/Tata_Football_Academy.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2016</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/United_Sports_Club_U-19.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2015</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohammedan_Sporting_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2014</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/United_Sports_Club_U-19.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2013</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2012</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Churchill_Brothers_SC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2011</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Churchill_Brothers_SC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2009</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mahindra_United.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2008</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mahindra_United.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2006</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/FC_Bayern_München.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2005</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Finance_and_Revenue.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2004</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2003</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2002</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 2000</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1999</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1998</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1997</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/JCT_Mills.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1996</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1995</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1994</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Pakhtakor_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1993</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1991</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1989</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1987</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1986</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Peñarol.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1985</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1984</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Aryans_club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1983</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1983</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1982</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1981</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1981</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1979</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1978</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1977</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1976</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1976</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1975</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1974</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1973</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohammedan_Sporting_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1971</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1970</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1969</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1966</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1965</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/B_N_Railways.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1963</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1962</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1961</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1961</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1960</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1958</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohammedan_Sporting_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1957</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1956</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/rajasthan_club_fc.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1955</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1954</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Indian_Culture_League.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1953</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1952</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1951</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1950</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1949</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1948</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1947</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1945</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/EB_Railways.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1944</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_Bengal_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1943</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohammedan_Sporting_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1942</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohammedan_Sporting_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1941</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Aryans_club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1940</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/POLICE_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1939</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_York.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1938</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Fire_Brigade.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1937</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohammedan_Sporting_Club.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1936</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/East_York.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1935</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/DCLI.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1933</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Bn_Esser_Regiment.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1932</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Highland.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1931</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/D_Seaforth_Highlanders.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1930</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Sherwood_Foresters.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1928</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Sherwood_Foresters.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1927</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Sherwood_Foresters.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1926</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Bn_RS_Fusiliers.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1925</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1924</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1923</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1922</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/3rd_Bn_Brecknockshire.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1921</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Black_Watch.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1920</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Bn_Brecknockshire.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1919</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Middlesex.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1917</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/North_Stafford.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1916</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1915</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/King_Own_Regiment.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1914</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Royal_Irish_Rifles_color.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1913</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Royal_Irish_Rifles_color.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1912</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Mohun_Bagan_AC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1911</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Gordon_Highlanders.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1910</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Gordon_Highlanders.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1909</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Gordon_Highlanders.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1908</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Highland.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1907</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1906</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Dalhousie_1897.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1905</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1904</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1903</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Highland.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1902</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Royal_Irish_Rifles_color.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1901</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1900</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/South_Lancashire.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1899</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Glouchester.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1898</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Dalhousie_1897.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1897</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Calcutta_FC.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1896</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Royal_Welsh_Fusilers.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1895</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Royal_Irish_Rifles_color.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1894</h5>
+                </div>
+                <div class="item">
+                    <img src="./assets/img/ifa-shield-winner/Royal_Irish_Rifles_color.jpg" class="card-img img-fluid" alt="...">
+                    <h5>Winner - 1893</h5>
                 </div>
             </div>
         </div>
